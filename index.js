@@ -25,11 +25,11 @@
 
 //-----------Nodes creation and Dom Modification------------//
 // creating a div
-var newDiv = document.createElement('div');
+//var newDiv = document.createElement('div');
 // add class 
-newDiv.className = 'hello';
+//newDiv.className = 'hello';
 // Add id to the div
-newDiv.id = 'hello1'
+//newDiv.id = 'hello1'
 
 // Add Attribute 
 
@@ -85,28 +85,36 @@ newDiv.id = 'hello1'
     // itemList.appendChild(li);
     //----------------------Form element-------------------
 
-    var form = document.getElementById('addForm');
-    var itemList = document.getElementById('items');
+    //var form = document.getElementById('addForm');
+    //var itemList = document.getElementById('items');
 
     //-------form submit event 
-    form.addEventListener('submit', addItem);
+    //form.addEventListener('submit', addItem);
 
     //Add Item
 
-     function addItem (e){
-    e.preventDefault();
+     //function addItem (e){
+    //e.preventDefault();
     
     // Get input value
 
-    var newItem = document.getElementById('item');
+    //var newItem = document.getElementById('item');
 
   // creat new li element
-  var li = document.createElement('li');
+  //var li = document.createElement('li');
   //Add classname to it
 
-  li.className = list-group-item;
-  console.log(li);
-   }
+ // li.className = list-group-item;
+  //console.log(li);
+   //}
+
+   //====================selectors========
+   //1>GETELEMENTBYID
+   
+   var header = document.getElementById('header-title');
+   header.style.color = 'blue';
+
+   //2>GETELEMENTSBYCLASSNAME
 
 
 
