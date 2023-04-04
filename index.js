@@ -2,23 +2,23 @@
 //console.dir(document);
 //console.log(document.all);
 // console.log(document.all[10]);
-// document.all[10].textContent = 'List all of your Items';
+// document.all[10].textContent = 'itemsst all of your Items';
 // let headerTitle = document.getElementById('header-title');
 // headerTitle.textContent = 'Hello';
 // headerTitle.innerText = 'goodbye';
  
 // let mainHeader = document.getElementById('main-header');
-// mainHeader.style.borderBottom = 'solid 3px red';
+// mainHeader.style.borderBottom = 'soitemsd 3px red';
 
-// let items = document.getElementsByClassName('list-group-item');
+// let items = document.getElementsByClassName('itemsst-group-item');
 // //items[1].style.backgroundColor ='yellow';
 // for(var i =0;i<items.length;i++){
 //     items[i].style.backgroundColor = 'yellow';
 // }
-// let li = document.getElementsByTagName('li');
-// li[0].style.backgroundColor = 'orange';
-// li[1].style.backgroundColor = 'white';
-// li[2].style.backgroundColor = 'green';
+// let items = document.getElementsByTagName('items');
+// items[0].style.backgroundColor = 'orange';
+// items[1].style.backgroundColor = 'white';
+// items[2].style.backgroundColor = 'green';
 // let submit = document.querySelector('input[type ="submit"]');
 // submit.value = "SEND";
 
@@ -57,12 +57,12 @@
 
 
 //  let form = document.getElementById('addForm');
-//     let itemList = document.getElementById('item');
+//     let itemitemsst = document.getElementById('item');
 
  //addform.style.backgroundColor = 'red';
  //form submit event
 
-//  form.addEventListener('submit', addItem);
+//  form.addEventitemsstener('submit', addItem);
 // function addItem(e){
 //     //Add Item
 //     e.preventDefault();
@@ -72,24 +72,24 @@
 
     //var newItem = document.getElementById('item').value;
 
-      // create new li element
+      // create new items element
 
-    // var li = document.createElement('li');
+    // var items = document.createElement('items');
 
     // // Add classname to it
 
-    // li.className = "list-group-item";
+    // items.className = "itemsst-group-item";
 
     // //Add textNode with input value
-    // li.appendChild(document.createTextNode('newItem'));
-    // itemList.appendChild(li);
+    // items.appendChild(document.createTextNode('newItem'));
+    // itemitemsst.appendChild(items);
     //----------------------Form element-------------------
 
     //var form = document.getElementById('addForm');
-    //var itemList = document.getElementById('items');
+    //var itemitemsst = document.getElementById('items');
 
     //-------form submit event 
-    //form.addEventListener('submit', addItem);
+    //form.addEventitemsstener('submit', addItem);
 
     //Add Item
 
@@ -100,21 +100,40 @@
 
     //var newItem = document.getElementById('item');
 
-  // creat new li element
-  //var li = document.createElement('li');
+  // creat new items element
+  //var items = document.createElement('items');
   //Add classname to it
 
- // li.className = list-group-item;
-  //console.log(li);
+ // items.className = itemsst-group-item;
+  //console.log(items);
    //}
 
    //====================selectors========
    //1>GETELEMENTBYID
    
-   var header = document.getElementById('header-title');
-   header.style.color = 'blue';
+  //  var header = document.getElementById('header-title');
+  //  header.style.color = 'blue';
 
    //2>GETELEMENTSBYCLASSNAME
+   var items = document.getElementsByTagName('items')
+   console.log(items);
+   console.log(items[1]);
+   items[1].textContent = 'Hello 2';
+   items[1].style.fontWeight = 'bold';
+   items[1].style.backgroundColor = 'yellow';
+   for(var i =0;i<items.length;i++){
+     items[i].style.backgroundColor = '#f4f4f4'
+   }
+   // GETELEMENTSBYTAGNAME
+    // var li = document.getElementsByTagName('li')
+    // console.log(li);
+    // console.log(li[1]);
+    // li[1].textContent = 'Hello 2';
+    // li[1].style.fontWeight = 'bold';
+    // li[1].style.backgroundColor = 'yellow';
+    // for(var i =0;i<items.length;i++){
+    //   li[i].style.backgroundColor = '#f4f4f4'
+    // }
 
 
 
