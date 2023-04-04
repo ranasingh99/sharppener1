@@ -115,15 +115,15 @@
   //  header.style.color = 'blue';
 
    //2>GETELEMENTSBYCLASSNAME
-   var items = document.getElementsByTagName('items')
-   console.log(items);
-   console.log(items[1]);
-   items[1].textContent = 'Hello 2';
-   items[1].style.fontWeight = 'bold';
-   items[1].style.backgroundColor = 'yellow';
-   for(var i =0;i<items.length;i++){
-     items[i].style.backgroundColor = '#f4f4f4'
-   }
+  //  var items = document.getElementsByTagName('items')
+  //  console.log(items);
+  //  console.log(items[1]);
+  //  items[1].textContent = 'Hello 2';
+  //  items[1].style.fontWeight = 'bold';
+  //  items[1].style.backgroundColor = 'yellow';
+  //  for(var i =0;i<items.length;i++){
+  //    items[i].style.backgroundColor = '#f4f4f4'
+   //}
    // GETELEMENTSBYTAGNAME
     // var li = document.getElementsByTagName('li')
     // console.log(li);
@@ -134,7 +134,45 @@
     // for(var i =0;i<items.length;i++){
     //   li[i].style.backgroundColor = '#f4f4f4'
     // }
+    //QuerySelector && QuerySelectorALL
 
+    // var header = document.querySelector('#main-header');
+    // header.style.borderBottom = 'solid 4px red';
+
+    // var input = document.querySelector('input');
+    // input.value = 'Hello World 2';
+
+    // var submit = document.querySelector('input[type = "submit"]');
+    // submit.style.backgroundColor = 'blue';
+
+    // var item = document.querySelector('.list-group-item');
+    // item.style.color = 'blue'
+    // var lastItem = document.querySelector('.list-group-item:last-child');
+    // lastItem.style.color = 'red';
+    // var thirdItem = document.querySelector('.list-group-item:nth-child(3)');
+    // thirdItem.style.color = 'yellow';
+
+    //QUERYSELECTORALL
+
+  //   var titles = document.querySelectorAll('.title');
+  // titles[0].textContent = 'Hello';
+
+  // var odd = document.querySelectorAll('li:nth-child(odd)');
+   
+  // for(var i =0;i<odd.length;i++){
+  //   odd[i].style.backgroundColor = '#00FFFF'
+  // }
+
+  // var even = document.querySelectorAll('li:nth-child(even)');
+
+  // for(var i =0;i<even.length;i++){
+  //   even[i].style.backgroundColor ='#faebd7';
+  // }
+//ASSIGNMENT
+var secondItem = document.querySelector('.list-group-item:nth-child(2)');
+secondItem.style.backgroundColor = 'green';
+var thirdItem = document.querySelector('.list-group-item:nth-child(3)');
+thirdItem.style.visibility = 'hidden';
 
 
 
